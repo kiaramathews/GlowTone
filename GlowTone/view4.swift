@@ -31,7 +31,7 @@ struct view4: View {
                                 .aspectRatio(contentMode: .fit)
                                 .padding()
                                 .scaledToFit()
-                                .frame(width:300)
+                                .frame(width:400)
                         }
                     }
                 

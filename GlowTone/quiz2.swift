@@ -1,5 +1,5 @@
 //
-//  view2.swift
+//  quiz2.swift
 //  GlowTone
 //
 //  Created by scholar on 6/14/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct view2: View {
+struct quiz2: View {
     var body: some View {
         NavigationStack {
             
@@ -26,7 +26,7 @@ struct view2: View {
                 
                 ZStack (alignment: .top) {
                     VStack {
-                        Image("quiz1")
+                        Image("quiz2")
                             .renderingMode(.original)
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
@@ -98,8 +98,8 @@ struct view2: View {
         }
     }
 }
-    struct view2_Previews: PreviewProvider {
-        static var previews: some View {
-            view2()
-        }
+struct quiz2_Previews: PreviewProvider {
+    static var previews: some View {
+        quiz2()
     }
+}

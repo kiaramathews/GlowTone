@@ -1,5 +1,5 @@
 //
-//  view2.swift
+//  quiz3.swift
 //  GlowTone
 //
 //  Created by scholar on 6/14/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct view2: View {
+struct quiz3: View {
     var body: some View {
         NavigationStack {
             
@@ -26,7 +26,7 @@ struct view2: View {
                 
                 ZStack (alignment: .top) {
                     VStack {
-                        Image("quiz1")
+                        Image("quiz3")
                             .renderingMode(.original)
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
@@ -43,19 +43,19 @@ struct view2: View {
                         VStack {
                         HStack {
                             NavigationLink(destination: quizhair1()) {
-                                Image("black")
+                                Image("skin1")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
                             NavigationLink(destination: quizhair2()) {
-                                Image("brown")
+                                Image("skin2")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
                             NavigationLink(destination: quizhair3()) {
-                                Image("Lbrown")
+                                Image("skin3")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
@@ -66,19 +66,19 @@ struct view2: View {
                         }
                             HStack {
                                 NavigationLink(destination: quizhair3()) {
-                                    Image("red")
+                                    Image("skin4")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 75.0)
                                 }
                                 NavigationLink(destination: quizhair3()) {
-                                    Image("blonde")
+                                    Image("skin5")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 75.0)
                                 }
                                 NavigationLink(destination: quizhair3()) {
-                                    Image("white")
+                                    Image("skin6")
                                         .renderingMode(.original)
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
@@ -98,8 +98,8 @@ struct view2: View {
         }
     }
 }
-    struct view2_Previews: PreviewProvider {
-        static var previews: some View {
-            view2()
-        }
+struct quiz3_Previews: PreviewProvider {
+    static var previews: some View {
+        quiz3()
     }
+}

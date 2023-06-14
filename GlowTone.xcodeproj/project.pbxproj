@@ -15,6 +15,14 @@
 		BD3B2DA82A3A14D300D40174 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DA72A3A14D300D40174 /* view2.swift */; };
 		BD3B2DAA2A3A267300D40174 /* view4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DA92A3A267300D40174 /* view4.swift */; };
 		BD3B2DAC2A3A27BD00D40174 /* view5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DAB2A3A27BD00D40174 /* view5.swift */; };
+		BD3B2DB02A3A404F00D40174 /* quizhair1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DAF2A3A404F00D40174 /* quizhair1.swift */; };
+		BD6EED7D2A3A57B700B950B5 /* quizhair2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED7C2A3A57B700B950B5 /* quizhair2.swift */; };
+		BD6EED7F2A3A580A00B950B5 /* quizhair3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED7E2A3A580A00B950B5 /* quizhair3.swift */; };
+		BD6EED812A3A588A00B950B5 /* quizhair4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED802A3A588A00B950B5 /* quizhair4.swift */; };
+		BD6EED832A3A58C100B950B5 /* quizhair5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED822A3A58C100B950B5 /* quizhair5.swift */; };
+		BD6EED852A3A58DB00B950B5 /* quizhair6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED842A3A58DB00B950B5 /* quizhair6.swift */; };
+		BD6EED872A3A594600B950B5 /* quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED862A3A594600B950B5 /* quiz2.swift */; };
+		BD6EED892A3A5EAD00B950B5 /* quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED882A3A5EAD00B950B5 /* quiz3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		BD3B2DA72A3A14D300D40174 /* view2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
 		BD3B2DA92A3A267300D40174 /* view4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view4.swift; sourceTree = "<group>"; };
 		BD3B2DAB2A3A27BD00D40174 /* view5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view5.swift; sourceTree = "<group>"; };
+		BD3B2DAF2A3A404F00D40174 /* quizhair1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair1.swift; sourceTree = "<group>"; };
+		BD6EED7C2A3A57B700B950B5 /* quizhair2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair2.swift; sourceTree = "<group>"; };
+		BD6EED7E2A3A580A00B950B5 /* quizhair3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair3.swift; sourceTree = "<group>"; };
+		BD6EED802A3A588A00B950B5 /* quizhair4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair4.swift; sourceTree = "<group>"; };
+		BD6EED822A3A58C100B950B5 /* quizhair5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair5.swift; sourceTree = "<group>"; };
+		BD6EED842A3A58DB00B950B5 /* quizhair6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair6.swift; sourceTree = "<group>"; };
+		BD6EED862A3A594600B950B5 /* quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz2.swift; sourceTree = "<group>"; };
+		BD6EED882A3A5EAD00B950B5 /* quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +80,16 @@
 				BD3B2DAB2A3A27BD00D40174 /* view5.swift */,
 				BD3B2DA92A3A267300D40174 /* view4.swift */,
 				BD3B2DA72A3A14D300D40174 /* view2.swift */,
+				BD6EED842A3A58DB00B950B5 /* quizhair6.swift */,
+				BD6EED802A3A588A00B950B5 /* quizhair4.swift */,
+				BD6EED822A3A58C100B950B5 /* quizhair5.swift */,
+				BD6EED7C2A3A57B700B950B5 /* quizhair2.swift */,
+				BD6EED7E2A3A580A00B950B5 /* quizhair3.swift */,
+				BD3B2DAF2A3A404F00D40174 /* quizhair1.swift */,
+				BD6EED862A3A594600B950B5 /* quiz2.swift */,
 				BD1B43542A390277001E36C5 /* view3.swift */,
 				BD1B43452A38BF8B001E36C5 /* Assets.xcassets */,
+				BD6EED882A3A5EAD00B950B5 /* quiz3.swift */,
 				BD1B43472A38BF8B001E36C5 /* Preview Content */,
 			);
 			path = GlowTone;
@@ -153,12 +177,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3B2DB02A3A404F00D40174 /* quizhair1.swift in Sources */,
 				BD1B43442A38BF8A001E36C5 /* ContentView.swift in Sources */,
+				BD6EED852A3A58DB00B950B5 /* quizhair6.swift in Sources */,
 				BD1B43422A38BF8A001E36C5 /* GlowToneApp.swift in Sources */,
 				BD3B2DAC2A3A27BD00D40174 /* view5.swift in Sources */,
+				BD6EED7D2A3A57B700B950B5 /* quizhair2.swift in Sources */,
+				BD6EED872A3A594600B950B5 /* quiz2.swift in Sources */,
 				BD3B2DAA2A3A267300D40174 /* view4.swift in Sources */,
 				BD1B43552A390277001E36C5 /* view3.swift in Sources */,
+				BD6EED892A3A5EAD00B950B5 /* quiz3.swift in Sources */,
+				BD6EED832A3A58C100B950B5 /* quizhair5.swift in Sources */,
+				BD6EED7F2A3A580A00B950B5 /* quizhair3.swift in Sources */,
 				BD3B2DA82A3A14D300D40174 /* view2.swift in Sources */,
+				BD6EED812A3A588A00B950B5 /* quizhair4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
