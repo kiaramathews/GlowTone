@@ -10,7 +10,11 @@
 		BD1B43422A38BF8A001E36C5 /* GlowToneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B43412A38BF8A001E36C5 /* GlowToneApp.swift */; };
 		BD1B43442A38BF8A001E36C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B43432A38BF8A001E36C5 /* ContentView.swift */; };
 		BD1B43462A38BF8B001E36C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1B43452A38BF8B001E36C5 /* Assets.xcassets */; };
-		BD1B43492A38BF8B001E36C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1B43482A38BF8B001E36C5 /* Preview Assets.xcassets */; };
+		BD1B43512A38C4AA001E36C5 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD1B43502A38C4AA001E36C5 /* FLAnimatedImage */; };
+		BD1B43552A390277001E36C5 /* view3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B43542A390277001E36C5 /* view3.swift */; };
+		BD3B2DA82A3A14D300D40174 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DA72A3A14D300D40174 /* view2.swift */; };
+		BD3B2DAA2A3A267300D40174 /* view4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DA92A3A267300D40174 /* view4.swift */; };
+		BD3B2DAC2A3A27BD00D40174 /* view5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3B2DAB2A3A27BD00D40174 /* view5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +22,10 @@
 		BD1B43412A38BF8A001E36C5 /* GlowToneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowToneApp.swift; sourceTree = "<group>"; };
 		BD1B43432A38BF8A001E36C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD1B43452A38BF8B001E36C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD1B43482A38BF8B001E36C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD1B43542A390277001E36C5 /* view3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view3.swift; sourceTree = "<group>"; };
+		BD3B2DA72A3A14D300D40174 /* view2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
+		BD3B2DA92A3A267300D40174 /* view4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view4.swift; sourceTree = "<group>"; };
+		BD3B2DAB2A3A27BD00D40174 /* view5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1B43512A38C4AA001E36C5 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +61,10 @@
 			children = (
 				BD1B43412A38BF8A001E36C5 /* GlowToneApp.swift */,
 				BD1B43432A38BF8A001E36C5 /* ContentView.swift */,
+				BD3B2DAB2A3A27BD00D40174 /* view5.swift */,
+				BD3B2DA92A3A267300D40174 /* view4.swift */,
+				BD3B2DA72A3A14D300D40174 /* view2.swift */,
+				BD1B43542A390277001E36C5 /* view3.swift */,
 				BD1B43452A38BF8B001E36C5 /* Assets.xcassets */,
 				BD1B43472A38BF8B001E36C5 /* Preview Content */,
 			);
@@ -62,7 +74,6 @@
 		BD1B43472A38BF8B001E36C5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BD1B43482A38BF8B001E36C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = GlowTone;
+			packageProductDependencies = (
+				BD1B43502A38C4AA001E36C5 /* FLAnimatedImage */,
+			);
 			productName = GlowTone;
 			productReference = BD1B433E2A38BF8A001E36C5 /* GlowTone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = BD1B43352A38BF8A001E36C5;
+			packageReferences = (
+				BD1B434F2A38C4AA001E36C5 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = BD1B433F2A38BF8A001E36C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1B43492A38BF8B001E36C5 /* Preview Assets.xcassets in Resources */,
 				BD1B43462A38BF8B001E36C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +155,10 @@
 			files = (
 				BD1B43442A38BF8A001E36C5 /* ContentView.swift in Sources */,
 				BD1B43422A38BF8A001E36C5 /* GlowToneApp.swift in Sources */,
+				BD3B2DAC2A3A27BD00D40174 /* view5.swift in Sources */,
+				BD3B2DAA2A3A267300D40174 /* view4.swift in Sources */,
+				BD1B43552A390277001E36C5 /* view3.swift in Sources */,
+				BD3B2DA82A3A14D300D40174 /* view2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +357,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD1B434F2A38C4AA001E36C5 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD1B43502A38C4AA001E36C5 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD1B434F2A38C4AA001E36C5 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD1B43362A38BF8A001E36C5 /* Project object */;
 }
