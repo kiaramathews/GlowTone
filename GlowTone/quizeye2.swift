@@ -1,13 +1,13 @@
 //
-//  quizhair3.swift
+//  quizeye2.swift
 //  GlowTone
 //
-//  Created by scholar on 6/14/23.
+//  Created by scholar on 6/15/23.
 //
 
 import SwiftUI
 
-struct quizhair3: View {
+struct quizeye2: View {
     var body: some View {
         NavigationStack{
             ZStack{
@@ -16,7 +16,7 @@ struct quizhair3: View {
                 
                 VStack {
                     
-                    Text("Based on your results, the colors that best fit your hair color are, mint green, bubblegum pink, gray-ish blue tones, and pearl gray.")
+                    Text("Based on your results, the colors that best fit you best are, green tones, yellow, orange, and red.")
                         .font(.title2)
                         .fontWeight(.regular)
                         .foregroundColor(Color.white)
@@ -31,7 +31,7 @@ struct quizhair3: View {
                                 .stroke(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/,
                                                               lineWidth: 4))
                         .padding()
-                    Text("Pro tip:  You can wear both gold and silver jewelry!")
+                    Text("Pro tip: The jewelry that looks best on you is gold.")
                         .font(.title)
                         .fontWeight(.light)
                         .foregroundColor(Color.white)
@@ -46,7 +46,7 @@ struct quizhair3: View {
                                 .stroke(/*@START_MENU_TOKEN@*/Color(red: 0.588, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/, lineWidth: 4))
                         .padding()
                     
-                    NavigationLink(destination: quiz2()){
+                    NavigationLink(destination: quiz3()){
                         Text(" Next Question ")
                             .font(.largeTitle)
                             .fontWeight(.bold)
@@ -65,8 +65,8 @@ struct quizhair3: View {
         }
     }
 }
-struct quizhair3_Previews: PreviewProvider {
+struct quizeye2_Previews: PreviewProvider {
     static var previews: some View {
-        quizhair3()
+        quizeye2()
     }
 }

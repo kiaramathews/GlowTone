@@ -42,20 +42,20 @@ struct quiz2: View {
                 
                         VStack {
                         HStack {
-                            NavigationLink(destination: quizhair1()) {
-                                Image("black")
+                            NavigationLink(destination: quizeye1()) {
+                                Image("eye1")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
-                            NavigationLink(destination: quizhair2()) {
-                                Image("brown")
+                            NavigationLink(destination: quizeye2()) {
+                                Image("eye2")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
-                            NavigationLink(destination: quizhair3()) {
-                                Image("Lbrown")
+                            NavigationLink(destination: quizeye3()) {
+                                Image("eye3")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
@@ -65,20 +65,20 @@ struct quiz2: View {
                             
                         }
                             HStack {
-                                NavigationLink(destination: quizhair3()) {
-                                    Image("red")
+                                NavigationLink(destination: quizeye4()) {
+                                    Image("eye4")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 75.0)
                                 }
-                                NavigationLink(destination: quizhair3()) {
-                                    Image("blonde")
+                                NavigationLink(destination: quizeye5()) {
+                                    Image("eye5")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 75.0)
                                 }
-                                NavigationLink(destination: quizhair3()) {
-                                    Image("white")
+                                NavigationLink(destination: quizeye6()) {
+                                    Image("eye6")
                                         .renderingMode(.original)
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)

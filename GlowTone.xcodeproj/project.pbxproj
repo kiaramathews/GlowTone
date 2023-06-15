@@ -23,6 +23,18 @@
 		BD6EED852A3A58DB00B950B5 /* quizhair6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED842A3A58DB00B950B5 /* quizhair6.swift */; };
 		BD6EED872A3A594600B950B5 /* quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED862A3A594600B950B5 /* quiz2.swift */; };
 		BD6EED892A3A5EAD00B950B5 /* quiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED882A3A5EAD00B950B5 /* quiz3.swift */; };
+		BD6EED8B2A3B591D00B950B5 /* quizeye1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED8A2A3B591D00B950B5 /* quizeye1.swift */; };
+		BD6EED8D2A3B592B00B950B5 /* quizeye2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED8C2A3B592B00B950B5 /* quizeye2.swift */; };
+		BD6EED8F2A3B594200B950B5 /* quizeye3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED8E2A3B594200B950B5 /* quizeye3.swift */; };
+		BD6EED912A3B595B00B950B5 /* quizeye4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED902A3B595B00B950B5 /* quizeye4.swift */; };
+		BD6EED932A3B596700B950B5 /* quizeye5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED922A3B596700B950B5 /* quizeye5.swift */; };
+		BD6EED952A3B597600B950B5 /* quizeye6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED942A3B597600B950B5 /* quizeye6.swift */; };
+		BD6EED972A3B5A6A00B950B5 /* quizskin1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED962A3B5A6A00B950B5 /* quizskin1.swift */; };
+		BD6EED992A3B5A7E00B950B5 /* quizskin2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED982A3B5A7E00B950B5 /* quizskin2.swift */; };
+		BD6EED9B2A3B5A8D00B950B5 /* quizskin3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED9A2A3B5A8D00B950B5 /* quizskin3.swift */; };
+		BD6EED9D2A3B5A9700B950B5 /* quizskin4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED9C2A3B5A9700B950B5 /* quizskin4.swift */; };
+		BD6EED9F2A3B5AA300B950B5 /* quizskin5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EED9E2A3B5AA300B950B5 /* quizskin5.swift */; };
+		BD6EEDA12A3B5AC400B950B5 /* quizskin6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6EEDA02A3B5AC400B950B5 /* quizskin6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +54,18 @@
 		BD6EED842A3A58DB00B950B5 /* quizhair6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizhair6.swift; sourceTree = "<group>"; };
 		BD6EED862A3A594600B950B5 /* quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz2.swift; sourceTree = "<group>"; };
 		BD6EED882A3A5EAD00B950B5 /* quiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz3.swift; sourceTree = "<group>"; };
+		BD6EED8A2A3B591D00B950B5 /* quizeye1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizeye1.swift; sourceTree = "<group>"; };
+		BD6EED8C2A3B592B00B950B5 /* quizeye2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizeye2.swift; sourceTree = "<group>"; };
+		BD6EED8E2A3B594200B950B5 /* quizeye3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizeye3.swift; sourceTree = "<group>"; };
+		BD6EED902A3B595B00B950B5 /* quizeye4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizeye4.swift; sourceTree = "<group>"; };
+		BD6EED922A3B596700B950B5 /* quizeye5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizeye5.swift; sourceTree = "<group>"; };
+		BD6EED942A3B597600B950B5 /* quizeye6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizeye6.swift; sourceTree = "<group>"; };
+		BD6EED962A3B5A6A00B950B5 /* quizskin1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizskin1.swift; sourceTree = "<group>"; };
+		BD6EED982A3B5A7E00B950B5 /* quizskin2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizskin2.swift; sourceTree = "<group>"; };
+		BD6EED9A2A3B5A8D00B950B5 /* quizskin3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizskin3.swift; sourceTree = "<group>"; };
+		BD6EED9C2A3B5A9700B950B5 /* quizskin4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizskin4.swift; sourceTree = "<group>"; };
+		BD6EED9E2A3B5AA300B950B5 /* quizskin5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizskin5.swift; sourceTree = "<group>"; };
+		BD6EEDA02A3B5AC400B950B5 /* quizskin6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizskin6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +111,21 @@
 				BD6EED7E2A3A580A00B950B5 /* quizhair3.swift */,
 				BD3B2DAF2A3A404F00D40174 /* quizhair1.swift */,
 				BD6EED862A3A594600B950B5 /* quiz2.swift */,
+				BD6EED8A2A3B591D00B950B5 /* quizeye1.swift */,
+				BD6EED8C2A3B592B00B950B5 /* quizeye2.swift */,
+				BD6EED8E2A3B594200B950B5 /* quizeye3.swift */,
+				BD6EED902A3B595B00B950B5 /* quizeye4.swift */,
+				BD6EED922A3B596700B950B5 /* quizeye5.swift */,
+				BD6EED942A3B597600B950B5 /* quizeye6.swift */,
 				BD1B43542A390277001E36C5 /* view3.swift */,
 				BD1B43452A38BF8B001E36C5 /* Assets.xcassets */,
 				BD6EED882A3A5EAD00B950B5 /* quiz3.swift */,
+				BD6EED962A3B5A6A00B950B5 /* quizskin1.swift */,
+				BD6EED982A3B5A7E00B950B5 /* quizskin2.swift */,
+				BD6EED9A2A3B5A8D00B950B5 /* quizskin3.swift */,
+				BD6EED9C2A3B5A9700B950B5 /* quizskin4.swift */,
+				BD6EED9E2A3B5AA300B950B5 /* quizskin5.swift */,
+				BD6EEDA02A3B5AC400B950B5 /* quizskin6.swift */,
 				BD1B43472A38BF8B001E36C5 /* Preview Content */,
 			);
 			path = GlowTone;
@@ -180,17 +216,29 @@
 				BD3B2DB02A3A404F00D40174 /* quizhair1.swift in Sources */,
 				BD1B43442A38BF8A001E36C5 /* ContentView.swift in Sources */,
 				BD6EED852A3A58DB00B950B5 /* quizhair6.swift in Sources */,
+				BD6EED9B2A3B5A8D00B950B5 /* quizskin3.swift in Sources */,
+				BD6EEDA12A3B5AC400B950B5 /* quizskin6.swift in Sources */,
 				BD1B43422A38BF8A001E36C5 /* GlowToneApp.swift in Sources */,
+				BD6EED932A3B596700B950B5 /* quizeye5.swift in Sources */,
 				BD3B2DAC2A3A27BD00D40174 /* view5.swift in Sources */,
 				BD6EED7D2A3A57B700B950B5 /* quizhair2.swift in Sources */,
 				BD6EED872A3A594600B950B5 /* quiz2.swift in Sources */,
+				BD6EED8D2A3B592B00B950B5 /* quizeye2.swift in Sources */,
 				BD3B2DAA2A3A267300D40174 /* view4.swift in Sources */,
+				BD6EED992A3B5A7E00B950B5 /* quizskin2.swift in Sources */,
+				BD6EED972A3B5A6A00B950B5 /* quizskin1.swift in Sources */,
 				BD1B43552A390277001E36C5 /* view3.swift in Sources */,
+				BD6EED952A3B597600B950B5 /* quizeye6.swift in Sources */,
 				BD6EED892A3A5EAD00B950B5 /* quiz3.swift in Sources */,
+				BD6EED9F2A3B5AA300B950B5 /* quizskin5.swift in Sources */,
 				BD6EED832A3A58C100B950B5 /* quizhair5.swift in Sources */,
+				BD6EED8B2A3B591D00B950B5 /* quizeye1.swift in Sources */,
 				BD6EED7F2A3A580A00B950B5 /* quizhair3.swift in Sources */,
 				BD3B2DA82A3A14D300D40174 /* view2.swift in Sources */,
+				BD6EED9D2A3B5A9700B950B5 /* quizskin4.swift in Sources */,
 				BD6EED812A3A588A00B950B5 /* quizhair4.swift in Sources */,
+				BD6EED8F2A3B594200B950B5 /* quizeye3.swift in Sources */,
+				BD6EED912A3B595B00B950B5 /* quizeye4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

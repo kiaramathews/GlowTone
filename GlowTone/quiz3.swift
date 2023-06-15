@@ -42,19 +42,19 @@ struct quiz3: View {
                 
                         VStack {
                         HStack {
-                            NavigationLink(destination: quizhair1()) {
+                            NavigationLink(destination: quizskin1()) {
                                 Image("skin1")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
-                            NavigationLink(destination: quizhair2()) {
+                            NavigationLink(destination: quizskin2()) {
                                 Image("skin2")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
-                            NavigationLink(destination: quizhair3()) {
+                            NavigationLink(destination: quizskin3()) {
                                 Image("skin3")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
@@ -65,19 +65,19 @@ struct quiz3: View {
                             
                         }
                             HStack {
-                                NavigationLink(destination: quizhair3()) {
+                                NavigationLink(destination: quizskin4()) {
                                     Image("skin4")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 75.0)
                                 }
-                                NavigationLink(destination: quizhair3()) {
+                                NavigationLink(destination: quizskin5()) {
                                     Image("skin5")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 75.0)
                                 }
-                                NavigationLink(destination: quizhair3()) {
+                                NavigationLink(destination: quizskin6()) {
                                     Image("skin6")
                                         .renderingMode(.original)
                                         .resizable(resizingMode: .stretch)
