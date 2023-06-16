@@ -21,6 +21,14 @@ struct quiz2: View {
                             Text("👤")
                                 .font(.title)
                                 .ignoresSafeArea()
+                                .padding(5)
+                                .background(Rectangle()
+                                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/))
+                                .cornerRadius(10)
+                                .shadow(radius: 10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .stroke(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/, lineWidth: 4))
                         }
                     }
                 
@@ -42,7 +50,7 @@ struct quiz2: View {
                 
                         VStack {
                         HStack {
-                            NavigationLink(destination: quizeye1()) {
+                            NavigationLink(destination: quiz3()) {
                                 Image("eye1")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)

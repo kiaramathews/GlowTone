@@ -17,7 +17,15 @@ struct view5: View {
         .toolbar {
         NavigationLink(destination: view3()) {
         Text("👤")
-        .font(.title)
+                .font(.body)
+                .ignoresSafeArea()
+                .padding(5)
+                .background(Rectangle()
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/))
+                .cornerRadius(10)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/, lineWidth: 4))
                             }
                         }
         
@@ -36,6 +44,7 @@ struct view5: View {
                         .renderingMode(.original)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
+                        .padding(.top)
                         .scaledToFit()
                         .frame(width:300)
                         .background(Rectangle()
@@ -121,7 +130,7 @@ struct view5: View {
                         .cornerRadius(10)
                         .shadow(radius: 10)
                       
-                    Text("Kiara, 18 years old fashion icon")
+                    Text("Kiara, 18 year old project leader")
                         .font(.body)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.leading)
@@ -146,7 +155,7 @@ struct view5: View {
                         .cornerRadius(10)
                         .shadow(radius: 10)
                         
-                    Text("Honna, 16 year old degenate").font(.body)
+                    Text("Honna, 16 years old fashion icon ").font(.body)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.leading)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

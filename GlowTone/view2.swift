@@ -21,6 +21,14 @@ struct view2: View {
                             Text("👤")
                                 .font(.title)
                                 .ignoresSafeArea()
+                                .padding(5)
+                                .background(Rectangle()
+                                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/))
+                                .cornerRadius(10)
+                                .shadow(radius: 10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .stroke(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/, lineWidth: 4))
                         }
                     }
                 
@@ -48,7 +56,7 @@ struct view2: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 75.0)
                             }
-                            NavigationLink(destination: quizhair2()) {
+                            NavigationLink(destination: quiz2()) {
                                 Image("brown")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
