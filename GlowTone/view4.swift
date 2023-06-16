@@ -31,7 +31,7 @@ struct view4: View {
                                         .stroke(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/, lineWidth: 4))
                         }
                     }
-               
+                
                 ScrollView{
                     VStack {
                         Image("learn1")
@@ -40,99 +40,103 @@ struct view4: View {
                             .aspectRatio(contentMode: .fit)
                             .padding()
                             .scaledToFit()
-                            .frame(width:100)
+                            .frame(width:300)
+                    }
+                    
+                    VStack(spacing: 20) {
+                        ForEach(0..<1) {_ in
+                        }
+                    }
+                    
+                    HStack {
+                        VStack {
+                            Text("Red")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.red)
+                            Text("Love, Power, Volger, Beauty, Strength, Success, Resilience")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            
+                            Text("Yellow")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.yellow)
+                                .multilineTextAlignment(.center)
+                            Text("Positivity, Joy, Happiness, Hope, Confidence, Curiosity, clarity")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("Green")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.green)
+                                .multilineTextAlignment(.center)
+                            Text("Growth, Fresh start, Abundance, Security, Balance")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("Pink")
+                                .font(.body)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(hue: 0.913, saturation: 0.699, brightness: 0.971))
+                            Text("Playful, Nurturing, Childhood, Passion, Bold, Soft, kind")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("White")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.white)
+                                .multilineTextAlignment(.center)
+                            Text("Purity, Clean, Honest, New, Optimistic, Wise, fancy")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            
+                        }
+                        VStack {
+                            Text("Orange")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.orange)
+                            Text("Optimism, Enthusiasm, Warmth, Bold, Outgoing")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("Purple")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.purple)
+                            Text("Luxury, Royalty, Mystery, Popular, Fantasy, femininity")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("Blue")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.blue)
+                                .multilineTextAlignment(.center)
+                            Text("smart, Responsible, Trust, Refreshing, Friendly")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("Brown")
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(hue: 0.093, saturation: 0.301, brightness: 0.486))
+                            Text("Warmth, Security, Earthiness, Reliability, nurturing")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            Text("Black")
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            Text("Elegant, Greif Rebellion, Mystory, Wealth, Virtue")
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom)
+                            
+                        }
+                       
+                    }
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .background(Rectangle() .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.592, green: 0.794, blue: 0.999)/*@END_MENU_TOKEN@*/))
+                    .cornerRadius(15)
+                    .shadow(radius: 15)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                }
+            }
                         
-                        VStack(spacing: 20) {
-                            ForEach(0..<1) {_ in
-                                Text("Meaning of Colors")
-                                    .fontWeight(.heavy)
-                                    .foregroundColor(Color.gray)
-                            }
+                        
                         }
-                        .padding()
-                        HStack {
-                            VStack {
-                                Text("Red")
-                                    .foregroundColor(Color.red)
-                                Text("Love, Power, Volger, Beauty, Strength, Success, Resilience")
-                                    .multilineTextAlignment(.center)
-                            }
-                            VStack {
-                                Text("Orange")
-                                    .foregroundColor(Color.orange)
-                                Text("Optimism, Confidens, Enthusiasm, Warmth, 4 Bold, Outgoing")
-                                    .multilineTextAlignment(.center)
-                            }
-                            .padding()
-                        }
-                        HStack {
-                            VStack {
-                                Text("Yellow")
-                                    .foregroundColor(Color.yellow)
-                                    .multilineTextAlignment(.center)
-                                Text("Positivity, Joy, Happiness, Hope, Confidence, Curiosity, clarity")
-                                    .multilineTextAlignment(.center)
-                            }
-                            VStack {
-                                Text("Purple")
-                                    .foregroundColor(Color.purple)
-                                Text("Luxury, Royalty, Mystery, Popular, Fantasy, femininity")
-                                    .multilineTextAlignment(.center)
-                            }
-                            .padding()
-                        }
-                        HStack {
-                            VStack {
-                                Text("Green")
-                                    .foregroundColor(Color.green)
-                                Text("Growth, Fresh start, Abundance, Security, Balance")
-                                    .multilineTextAlignment(.center)
-                            }
-                            VStack {
-                                Text("Blue")
-                                    .foregroundColor(Color.blue)
-                                Text("smart, Responsible, Trust, Refreshing, Friendly")
-                                    .multilineTextAlignment(.center)
-                            }
-                            .padding()
-                        }
-                        HStack {
-                            VStack {
-                                Text("Pink")
-                                    .foregroundColor(Color.pink)
-                                Text("Playful, Nurturing, Childhood, Passion, Bold, Soft, kind")
-                                    .multilineTextAlignment(.center)
-                            }
-                            VStack {
-                                Text("Brown")
-                                    .foregroundColor(Color.black)
-                                Text("Warmth, Security, Earthiness, Organic, Reliability, Dependability, nurturing")
-                                    .multilineTextAlignment(.center)
-                            }
-                            .padding()
-                        }
-                        HStack {
-                            VStack {
-                                Text("White")
-                                    .foregroundColor(Color.white)
-                                Text("Purity, Clean, Honest, New, Optimistic, Wise, fancy")}
-                                VStack {
-                                    Text("Black")
-                                    Text("Elegant, Greif Rebellion, Mystory, Wealth, Virtue")
-                                        .multilineTextAlignment(.center)
-                                }
-                            }
-                        .padding()
-                        }
+                
                     }
                 }
-                        
-                       
-                        }
-                    }
-                
-                
-            }
+           
+          
             
             
         

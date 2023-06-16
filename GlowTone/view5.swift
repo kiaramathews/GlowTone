@@ -81,7 +81,7 @@ struct view5: View {
                         .shadow(radius: 10)
                         
                     
-                    Text("Elena, 13 years old coding prodigy ").font(.body)
+                    Text("Elena, 13 year old coding prodigy ").font(.body)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.leading)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -106,7 +106,7 @@ struct view5: View {
                         .shadow(radius: 10)
                         
                     
-                    Text("Taubah, 15 years old coding genius ").font(.body)
+                    Text("Taubah, 15 year old coding genius ").font(.body)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.leading)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -155,7 +155,7 @@ struct view5: View {
                         .cornerRadius(10)
                         .shadow(radius: 10)
                         
-                    Text("Honna, 16 years old fashion icon ").font(.body)
+                    Text("Honna, 16 year old fashion icon ").font(.body)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.leading)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

@@ -52,6 +52,7 @@ struct view3: View {
                     print(name)
                 }  .font(.title2)
                     .buttonStyle(.borderedProminent)
+                    .multilineTextAlignment(.center)
                     .tint(/*@START_MENU_TOKEN@*/Color(hue: 0.904, saturation: 0.309, brightness: 1.0)/*@END_MENU_TOKEN@*/)
                     .shadow(radius: 10)
             }
